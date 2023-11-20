@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom:" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Entre Nom" />
+
+    <TextView
+        android:id="@+id/textViewTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone:" />
+
+    <EditText
+        android:id="@+id/editTextTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Enter Telephone" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email" />
+
+    <TextView
+        android:id="@+id/textViewRue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rue:" />
+
+    <EditText
+        android:id="@+id/editTextRue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Rue" />
+
+    <TextView
+        android:id="@+id/textViewVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ville:" />
+
+    <EditText
+        android:id="@+id/editTextVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Ville" />
+
+    <TextView
+        android:id="@+id/textViewCodePostale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Code Postale:" />
+
+    <EditText
+        android:id="@+id/editTextCodePostale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Code Postale" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="@color/light_red"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="@color/light_red"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+</LinearLayout>
